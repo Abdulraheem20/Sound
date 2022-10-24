@@ -1,6 +1,6 @@
 let sounds = document.querySelectorAll('.sounds');
 
-sounds.forEach(function(element, index) {
+sounds.forEach((element, index)=> {
 //    console.log(element);
    element.addEventListener('click', (e)=>{
     // console.log(index);
@@ -34,3 +34,22 @@ sounds.forEach(function(element, index) {
    })
     
 });
+
+
+function getPassingTests(results) {
+    console.log(results);
+    return data[grade].filter
+}
+
+// sample usage (do not modify)
+const data = [{
+    id: 1,
+    grade: 10
+}, {
+    id: 2,
+    grade: 4
+}, {
+    id: 3,
+    grade: 18
+}]
+console.log(getPassingTests(data))
